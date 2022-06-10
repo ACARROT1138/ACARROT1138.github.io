@@ -1,11 +1,13 @@
-.lw { font-size: 60px; }
-
-body {
- background-color: black;
- /*background-image:url(https://raw.githubusercontent.com/ACARROT1138/Jozef-Tan/main/Background.png);*/
+.lw {
+  font-size: 60px;
 }
 
-h1{
+body {
+  background-color: #161616;
+  /*background-image:url(https://raw.githubusercontent.com/ACARROT1138/Jozef-Tan/main/Background.png);*/
+}
+
+h1 {
   color: white;
   font-family: sans-serif;
   font-size: 25px;
@@ -14,7 +16,7 @@ h1{
   text-align: center;
 }
 
-h2{
+h2 {
   color: white;
   font-family: sans-serif;
   font-size: 1.5vw;
@@ -24,7 +26,7 @@ h2{
   font-weight: lighter;
 }
 
-.bodytext{
+.bodytext {
   color: white;
   font-family: sans-serif;
   font-size: 1.5vw;
@@ -38,7 +40,7 @@ h2{
   /*transform: translate(-25%, -50%);*/
 }
 
-p{
+p {
   color: grey;
   font-family: sans-serif;
   font-size: 1vw;
@@ -55,10 +57,10 @@ p{
   display: block;
   padding-top: 4%;
   padding-bottom: 4%;
-  
+
 }
 
-.gap{
+.gap {
   padding-top: 10vh;
   padding-bottom: 3vh;
   color: white;
@@ -75,7 +77,8 @@ p{
   clear: both;
   display: table;
 }
-.showcaseimage{
+
+.showcaseimage {
   opacity: 0.3;
   filter: blur(2px);
 }
@@ -91,6 +94,7 @@ p{
   text-align: center;
   font-weight: bold;
 }
+
 .subheading {
   color: white;
   font-family: sans-serif;
@@ -109,7 +113,7 @@ p{
 }
 
 /* relevant styles */
-.imagee{
+.imagee {
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -141,16 +145,17 @@ p{
   transition: opacity 0.5s, visibility 0.5s;
 }
 
-footer{
+footer {
   margin-top: 50px;
-  
+
 }
 
 
-.img__img{
+.img__img {
   transform: scale(0.94);
   transition: filter 0.5s;
 }
+
 .imagee:hover .img__img {
   filter: blur(5px) grayscale(75%) brightness(0.2);
   left: 5%;

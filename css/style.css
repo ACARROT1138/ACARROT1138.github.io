@@ -46,9 +46,9 @@ p{
 }
 
 .gap{
-  padding-top:80px;
-  padding-bottom: 25px;
-   color:white;
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+  color:white;
   font-family: sans-serif;
   font-size: 2vw;
   top: 30%;
